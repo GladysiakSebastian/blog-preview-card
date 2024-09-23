@@ -40,6 +40,10 @@
   border: 1px solid #000;
 }
 
+.card:hover {
+  box-shadow: 16px 16px 0 #000;
+}
+
 .card-image {
   border-radius: 10px;
   margin-bottom: 24px;
@@ -75,6 +79,10 @@
   line-height: 1.5;
   color: #111;
   margin-bottom: 12px;
+}
+
+.card:hover .content-title {
+  color: #f4d04e;
 }
 
 .content-description {
