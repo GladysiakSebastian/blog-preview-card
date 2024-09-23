@@ -111,3 +111,34 @@
   letter-spacing: 0;
   line-height: 1.5;
 }
+
+@media (max-width: 600px) {
+  .card {
+    width: 327px;
+    height: 501px;
+  }
+
+  .card-image {
+    width: 279px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    font-size: 12px;
+    width: 73px;
+    height: 26px;
+  }
+
+  .content-publish-date {
+    font-size: 12px;
+  }
+
+  .content-title {
+    font-size: 20px;
+  }
+
+  .content-description {
+    font-size: 14px;
+  }
+}
