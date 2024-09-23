@@ -38,7 +38,7 @@
   flex-direction: column;
 }
 
-.card-image img {
+.card-image {
   border-radius: 10px;
   margin-bottom: 24px;
 }
